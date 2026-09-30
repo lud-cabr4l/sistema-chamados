@@ -1,16 +1,59 @@
-# React + Vite
+# Sistema de Chamados de Suporte
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema web desenvolvido para cadastro e gerenciamento de chamados de suporte.
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- JavaScript
+- Vite
+- CSS
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Cadastro de chamados
+- Listagem de chamados
+- Validação dos campos
+- Alteração do status do chamado
+- Exclusão de chamados
+- Interface gráfica simples e responsiva
 
-## Expanding the ESLint configuration
+## Informações do chamado
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Cada chamado possui:
+
+- Cliente
+- Título
+- Categoria
+- Prioridade
+- Status
+
+## Como executar o projeto
+
+1. Clone o repositório:
+
+git clone URL_DO_REPOSITORIO
+
+2. Entre na pasta do projeto:
+
+cd sistema-chamados
+
+3. Instale as dependências:
+
+npm install
+
+4. Execute o projeto:
+
+npm run dev
+
+5. Acesse no navegador:
+
+http://localhost:5173
+
+## *Observação*
+
+Os chamados são armazenados apenas em memória. Portanto, os dados são perdidos quando a aplicação é reiniciada.
+
+## *Objetivo*
+
+O projeto foi desenvolvido como atividade acadêmica para praticar a criação de interfaces com React, utilizando componentes, estados, formulários, validações e interação com os dados.
